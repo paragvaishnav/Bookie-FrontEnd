@@ -1,0 +1,90 @@
+<div class="fluid-container">
+    <div class="row w-100 my-2">
+        <div class="col col-md-2 ">
+            <div class="container bg-white" style="margin-left: 6px;padding: 15px;">
+                <div class="cls">My Orders</div>
+                <hr>
+                <section class="example-section">
+                    <span class="example-list-section">
+                      <mat-checkbox class="example-margin"
+                                    [checked]="allComplete"
+                                    [color]="task.color"
+                                    [indeterminate]="someComplete()"
+                                    (change)="setAll($event.checked)">
+                        {{task.name}}
+                      </mat-checkbox>
+                    </span>
+                    <span class="example-list-section">
+                      <ul>
+                        <li *ngFor="let subtask of task.subtasks">
+                          <mat-checkbox [(ngModel)]="subtask.completed"
+                                        [color]="subtask.color"
+                                        (ngModelChange)="updateAllComplete()">
+                            {{subtask.name}}
+                          </mat-checkbox>
+                        </li>
+                      </ul>
+                    </span>
+                  </section>
+            </div>
+        </div>
+        <div class="col col-md-10">
+            <div class="row order-row  bg-white p-2 border border-2">
+                <div class="col col-md-2 m-0" style="width: 105px;height: 105px;">
+                    <img src="../../../assets/book.jpg" alt="" class="img-fluid w-100 img-card">
+                </div>
+                <div class="col col-md-4">
+                    <p>bOAt 115M Eardopes With 34 hrs playback</p>
+                </div>
+                <div class="col col-md-3">
+                    <p>$23</p>
+                </div>
+                <div class="col col-md-3">
+                    <p class="fw-bolder">Deliverd On 23rd December</p>
+                </div>
+            </div>
+            <div class="row order-row mt-2 bg-white">
+                <div class="col col-md-2 m-0" style="width: 105px;height: 105px;">
+                    <img src="../../../assets/book.jpg" alt="" class="img-fluid w-100 img-card">
+                </div>
+                <div class="col col-md-4">
+                    <p>bOAt 115M Eardopes With 34 hrs playback</p>
+                </div>
+                <div class="col col-md-3">
+                    <p>$23</p>
+                </div>
+                <div class="col col-md-3">
+                    <p class="fw-bolder">Deliverd On 23rd December</p>
+                </div>
+            </div>
+            <div class="row order-row mt-2  bg-white">
+                <div class="col col-md-2 m-0" style="width: 105px;height: 105px;">
+                    <img src="../../../assets/book.jpg" alt="" class="img-fluid w-100 img-card">
+                </div>
+                <div class="col col-md-4">
+                    <p>bOAt 115M Eardopes With 34 hrs playback</p>
+                </div>
+                <div class="col  col-md-3">
+                    <p>$23</p>
+                </div>
+                <div class="col col-md-3">
+                    <p class="fw-bolder">Deliverd On 23rd December</p>
+                </div>
+            </div>
+            <div class="row order-row mt-2  bg-white">
+                <div class="col col-md-2 m-0" style="width: 105px;height: 105px;">
+                    <img src="../../../assets/book.jpg" alt="" class="img-fluid w-100 img-card">
+                </div>
+                <div class="col col-md-4">
+                    <p>bOAt 115M Eardopes With 34 hrs playback</p>
+                </div>
+                <div class="col col-md-3">
+                    <p>$23</p>
+                </div>
+                <div class="col col-md-3">
+                    <p class="fw-bolder">Deliverd On 23rd December</p>
+                </div>
+            </div>  
+        </div>
+        
+    </div>

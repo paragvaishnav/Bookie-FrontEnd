@@ -1,0 +1,10 @@
+ul li {
+    list-style: none;
+}
+.product-card{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important
+}
+
+.product-card:hover {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}

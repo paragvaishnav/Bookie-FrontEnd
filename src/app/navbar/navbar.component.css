@@ -1,0 +1,78 @@
+.spacer {
+    position: absolute;
+    right: 0;
+}
+
+* {
+    font-family: 'Dosis', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(0, 0%, 80%);
+}
+
+.search-bar {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.search_icon {
+    position: absolute;
+    right: -35px;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: hsl(256, 100%, 16%);
+    color: white;
+}
+
+.loginPage {
+    width: 25em;
+}
+
+.dropbtn {
+    background:none;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: static;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 166px;
+    border-top: 5px solid blue;
+    right: 110px;
+    border-radius: 5px;
+    top: 62px;
+    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 2px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */

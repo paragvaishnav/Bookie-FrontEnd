@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Lobster&family=Signika+Negative:wght@300;400&display=swap');
+
+* {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.search-container input{
+    border-radius: 10rem 0 0 10rem;
+    border: none;
+    height: 3rem;
+    width: 23rem;
+    background-color: #e0dfdf;
+    padding: 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+}
+div button{
+    color:white;
+    height: 3rem;
+    width: 5rem;
+    font-size: 1rem;
+    border-radius: 0 10rem 10rem 0;
+    border: none;
+    background-color: #6610f2;
+    opacity: .8;
+}
+.container-fluid{
+    background-color: #f1f3f6;
+}
+

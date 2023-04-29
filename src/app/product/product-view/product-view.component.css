@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Lobster&family=Signika+Negative:wght@300;400&display=swap');
+
+.text-class {
+    font-family: 'Dosis', sans-serif !important;
+    font-family: 'Lobster', cursive !important;
+    font-family: 'Signika Negative', sans-serif !important;
+    font-size: 49px;
+    font-weight: 380;
+    line-height: 40px;
+
+
+}
+
+.desc {
+    line-height: 2.0rem;
+}
+
+tr:nth-child(even) {
+    background: #edf3f4 !important;
+}
+
+table {
+    line-height: 2.3rem;
+}
+
+th {
+    width: 35% !important;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.about {
+    font-size: 15px;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+.cart{position: absolute;
+    right: 12px;
+}

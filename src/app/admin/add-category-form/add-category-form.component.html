@@ -1,0 +1,18 @@
+<div class="container">
+    <h1 align="center" class="fw-bolder">Add New Category</h1>
+    <div class="row">
+        <div class="col">
+            <form [formGroup]="searchForm" (ngSubmit)="addNewCategory()">
+                <mat-form-field class="w-100" appearance="outline">
+                    <mat-label class="fw-bolder">Email Id or Username</mat-label>
+                    <input type="text" formControlName="categoryName" matInput placeholder="Electronics">
+                </mat-form-field>
+
+                <div class="d-grid">
+                    <button mat-raised-button color="primary" class="rounded-5">Add Category</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

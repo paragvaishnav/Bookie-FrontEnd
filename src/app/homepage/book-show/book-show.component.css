@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Lobster&family=Signika+Negative:wght@300;400&display=swap');
+
+*,
+h2 {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.reviews {
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star,
+.fa {
+    font-size: 1.1rem;
+    color: #f9ca1c;
+}
+
+.price{
+    font-size: 1.5rem;
+    margin-right: -69px;
+}
+.cart{
+    margin-left: 4.39rem !important;
+}
